@@ -49,4 +49,8 @@ The "subject_test.txt" and subject_train" files to get the identity (as an integ
    I used spread to reassemble the results into a 2-D database (I have a commenbted out line of code that uses acast to generate a 3-D version - not sure if 2D or 3D is "tidier")
    
    Finally I write the results to the directory where I originally saved the zipped files using write.table.
+   
+   Note it seems like the instrucitons for this assignment do not requrie that we upload a copy of the results (i.e., the tidy_data file.)  I have included a copy here in any case.  
+   
+   The instrucitons also ask that we provide the units for all of the variables in the casebook.  Since the variables are all normalized, they are unitless.
   
