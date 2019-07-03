@@ -1,0 +1,461 @@
+
+
+tidy_data codebook
+
+Data Source – “Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. A Public Domain Dataset for Human Activity Recognition Using Smartphones. 21th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2013. Bruges, Belgium 24-26 April 2013.”
+
+
+subject                                                        
+Factor
+1 to 30 – each integer refers to a unique subject
+
+Activity
+character - "laying" "sitting" "standing" "walking" “walking upstairs” “walking downstairs”
+values for integers taken from the activity_labels file and applied to the integer series contained in y_test.txt and y_train.txt
+
+column names for the remaining columns were obtained from the file features.txt and applied to the data in the files X_test.txt and X_train.txt
+ 
+
+time domain - body accelerometer - -mean()-X                   
+numeric   
+The means for each combination of activity and subject of the data from "tBodyAcc-mean()-X" from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+time domain - body accelerometer - -mean()-Y                   
+numeric 
+The means for each combination of activity and subject of the data from "tBodyAcc-mean()-Y" from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+time domain - body accelerometer - -mean()-Z                  
+numeric
+The means for each combination of activity and subject of the data from "tBodyAcc-mean()-Z" from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+time domain - body accelerometer - -std()-X                    
+numeric
+The means for each combination of activity and subject of the data from "tBodyAcc-std()-X" from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+time domain - body accelerometer - -std()-Y                    
+numeric
+The means for each combination of activity and subject of the data from "tBodyAcc-std()-Y" from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+time domain - body accelerometer - -std()-Z                    
+numeric
+The means for each combination of activity and subject of the data from "tBodyAcc-std()-Z" from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+time domain - GravityAcc-mean()-X                              
+numeric
+The means for each combination of activity and subject of the data from "tGravityAcc-mean()-X"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+time domain - GravityAcc-mean()-Y                             
+numeric
+The means for each combination of activity and subject of the data from "tGravityAcc-mean()-Y"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+time domain - GravityAcc-mean()-Z                              
+numeric
+The means for each combination of activity and subject of the data from "tGravityAcc-mean()-Z"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+time domain - GravityAcc-std()-X                               
+numeric
+The means for each combination of activity and subject of the data from "tGravityAcc-std()-X"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+time domain - GravityAcc-std()-Y                              
+numeric
+The means for each combination of activity and subject of the data from "tGravityAcc-std()-Y"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+time domain - GravityAcc-std()-Z                               
+numeric
+The means for each combination of activity and subject of the data from "tGravityAcc-std()-Z"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+time domain - body accelerometer - Jerk-mean()-X               
+numeric
+The means for each combination of activity and subject of the data from "tBodyAccJerk-mean()-X"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+time domain - body accelerometer - Jerk-mean()-Y               
+numeric
+The means for each combination of activity and subject of the data from "tBodyAccJerk-mean()-Y"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+time domain - body accelerometer - Jerk-mean()-Z               
+numeric
+The means for each combination of activity and subject of the data from "tBodyAccJerk-mean()-Z"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+time domain - body accelerometer - Jerk-std()-X                
+numeric
+The means for each combination of activity and subject of the data from "tBodyAccJerk-std()-X"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+time domain - body accelerometer - Jerk-std()-Y               
+numeric
+The means for each combination of activity and subject of the data from "tBodyAccJerk-std()-Y"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+time domain - body accelerometer - Jerk-std()-Z                
+numeric
+The means for each combination of activity and subject of the data from "tBodyAccJerk-std()-Z"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+time domain - body gyroscope - -mean()-X                       
+numeric
+The means for each combination of activity and subject of the data from "tBodyGyro-mean()-X"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+time domain - body gyroscope - -mean()-Y                       
+numeric
+The means for each combination of activity and subject of the data from "tBodyGyro-mean()-Y"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+time domain - body gyroscope - -mean()-Z                       
+numeric
+The means for each combination of activity and subject of the data from "tBodyGyro-mean()-Z"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+time domain - body gyroscope - -std()-X                        
+numeric
+The means for each combination of activity and subject of the data from "tBodyGyro-std()-X"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+time domain - body gyroscope - -std()-Y                        
+numeric
+The means for each combination of activity and subject of the data from "tBodyGyro-std()-Y"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+time domain - body gyroscope - -std()-Z                       
+numeric  
+The means for each combination of activity and subject of the data from "tBodyGyro-std()-Z"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+time domain - body gyroscope - Jerk-mean()-X                  
+numeric
+The means for each combination of activity and subject of the data from "tBodyGyroJerk-mean()-X"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+time domain - body gyroscope - Jerk-mean()-Y                   
+numeric
+The means for each combination of activity and subject of the data from "tBodyGyroJerk-mean()-Y"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+time domain - body gyroscope - Jerk-mean()-Z                   
+numeric
+The means for each combination of activity and subject of the data from "tBodyGyroJerk-mean()-Z"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+time domain - body gyroscope - Jerk-std()-X                    
+numeric
+The means for each combination of activity and subject of the data from "tBodyGyroJerk-std()-X"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+time domain - body gyroscope - Jerk-std()-Y                    
+numeric
+The means for each combination of activity and subject of the data from "tBodyGyroJerk-std()-Y"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+time domain - body gyroscope - Jerk-std()-Z                    
+numeric
+The means for each combination of activity and subject of the data from "tBodyGyroJerk-std()-Z"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+time domain - body accelerometer - Mag-mean()                  
+numeric
+The means for each combination of activity and subject of the data from "tBodyAccMag-mean()"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+
+
+time domain - body accelerometer - Mag-std()                  
+numeric
+The means for each combination of activity and subject of the data from "tBodyAccMag-std()"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+time domain - GravityAccMag-mean()                             
+numeric
+The means for each combination of activity and subject of the data from "tGravityAccMag-mean()"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+time domain - GravityAccMag-std()                              
+numeric
+The means for each combination of activity and subject of the data from "tGravityAccMag-std()"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+time domain - body accelerometer - JerkMag-mean()              
+numeric
+The means for each combination of activity and subject of the data from "tAccJerkMag-mean()"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+time domain - body accelerometer - JerkMag-std()               
+numeric
+The means for each combination of activity and subject of the data from "tAccJerkMag-std()"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+time domain - body gyroscope - Mag-mean()                      
+numeric
+The means for each combination of activity and subject of the data from "tBodyGyroMag-mean()"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+time domain - body gyroscope - Mag-std()                      
+numeric
+The means for each combination of activity and subject of the data from "tBodyGyroMag-std()"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+time domain - body gyroscope - JerkMag-mean()                  
+numeric
+The means for each combination of activity and subject of the data from "tBodyGyroJerkMag-mean()"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+time domain - body gyroscope - JerkMag-std()                   
+numeric
+The means for each combination of activity and subject of the data from "tBodyGyroJerkMag-std()"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+frequency domain - body accelerometer - -mean()-X              
+numeric
+The means for each combination of activity and subject of the data from "fBodyAcc-mean()-X"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+frequency domain - body accelerometer - -mean()-Y              
+numeric
+The means for each combination of activity and subject of the data from "fBodyAcc-mean()-Y"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+frequency domain - body accelerometer - -mean()-Z              
+numeric
+The means for each combination of activity and subject of the data from "fBodyAcc-mean()-Z"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+
+frequency domain - body accelerometer - -std()-X               
+numeric
+The means for each combination of activity and subject of the data from "fBodyAcc-std()-X"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+
+frequency domain - body accelerometer - -std()-Y               
+numeric
+The means for each combination of activity and subject of the data from "fBodyAcc-std()-Y"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+frequency domain - body accelerometer - -std()-Z               
+numeric
+The means for each combination of activity and subject of the data from "fBodyAcc-std()-Z"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+frequency domain - body accelerometer - -meanFreq()-X          
+numeric
+The means for each combination of activity and subject of the data from "fBodyAcc-meanFreq()-X"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+frequency domain - body accelerometer - -meanFreq()-Y          
+numeric
+The means for each combination of activity and subject of the data from "fBodyAcc-meanFreq()-Y"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+frequency domain - body accelerometer - -meanFreq()-Z          
+numeric
+The means for each combination of activity and subject of the data from "fBodyAcc-meanFreq()-Z"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+frequency domain - body accelerometer - Jerk-mean()-X          
+numeric
+The means for each combination of activity and subject of the data from "fBodyAccJerk-mean()-X”
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+frequency domain - body accelerometer - Jerk-mean()-Y          
+numeric
+
+The means for each combination of activity and subject of the data from "fBodyAccJerk-mean()-Y”
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+
+frequency domain - body accelerometer - Jerk-mean()-Z          
+numeric
+The means for each combination of activity and subject of the data from "fBodyAccJerk-mean()-Z”
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+
+frequency domain - body accelerometer - Jerk-std()-X           
+numeric
+The means for each combination of activity and subject of the data from "fBodyAccJerk-std()-X”
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+frequency domain - body accelerometer - Jerk-std()-Y           
+numeric
+The means for each combination of activity and subject of the data from "fBodyAccJerk-std()-Y”
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+frequency domain - body accelerometer - Jerk-std()-Z           
+numeric
+The means for each combination of activity and subject of the data from "fBodyAccJerk-std()-Z”
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+frequency domain - body accelerometer - Jerk-meanFreq()-X      
+numeric
+The means for each combination of activity and subject of the data from "fBodyAccJerk-meanFreq()-X"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+frequency domain - body accelerometer - Jerk-meanFreq()-Y      
+numeric
+The means for each combination of activity and subject of the data from "fBodyAccJerk-meanFreq()-Y"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+frequency domain - body accelerometer - Jerk-meanFreq()-Z      
+numeric
+The means for each combination of activity and subject of the data from "fBodyAccJerk-meanFreq()-Z"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+frequency domain - body gyroscope - -mean()-X                  
+numeric
+The means for each combination of activity and subject of the data from "fBodyGyro-mean()-X"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+frequency domain - body gyroscope - -mean()-Y                 
+numeric
+The means for each combination of activity and subject of the data from "fBodyGyro-mean()-Y"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+frequency domain - body gyroscope - -mean()-Z                  
+numeric
+The means for each combination of activity and subject of the data from "fBodyGyro-mean()-Z"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+frequency domain - body gyroscope - -std()-X                   
+numeric
+The means for each combination of activity and subject of the data from "fBodyGyro-std()-X"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+frequency domain - body gyroscope - -std()-Y                   
+numeric
+The means for each combination of activity and subject of the data from "fBodyGyro-std()-Y"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+frequency domain - body gyroscope - -std()-Z                   
+numeric
+The means for each combination of activity and subject of the data from "fBodyGyro-std()-Z"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+
+
+frequency domain - body gyroscope - -meanFreq()-X              
+numeric
+The means for each combination of activity and subject of the data from “fBodyGyro-meanFreq()-X”
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+frequency domain - body gyroscope - -meanFreq()-Y              
+numeric
+The means for each combination of activity and subject of the data from “fBodyGyro-meanFreq()-Y”
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+frequency domain - body gyroscope - -meanFreq()-Z              
+numeric
+The means for each combination of activity and subject of the data from “fBodyGyro-meanFreq()-Z”
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+frequency domain - body accelerometer - Mag-mean()             
+numeric
+The means for each combination of activity and subject of the data from “fBodyAccMag-mean()”
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+frequency domain - body accelerometer - Mag-std()              
+numeric
+The means for each combination of activity and subject of the data from “fBodyAccMag-std()”
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+frequency domain - body accelerometer - Mag-meanFreq()         
+numeric
+The means for each combination of activity and subject of the data from "fBodyAccMag-meanFreq()"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+frequency domain - body body accelerometer - JerkMag-mean()    
+numeric
+The means for each combination of activity and subject of the data from "fBodyBodyAccJerkMag-mean()”
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+
+
+
+
+frequency domain - body body accelerometer - JerkMag-std()     
+numeric
+The means for each combination of activity and subject of the data from "fBodyBodyAccJerkMag-std()”
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+frequency domain - body body accelerometer - JerkMag-meanFreq()
+numeric
+The means for each combination of activity and subject of the data from “fBodyBodyAccJerkMag-meanFreq()"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+frequency domain - body body gyroscope - Mag-mean()           
+numeric
+The means for each combination of activity and subject of the data from "fBodyBodyGyroMag-mean()" 
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+frequency domain - body body gyroscope - Mag-std()             
+numeric
+The means for each combination of activity and subject of the data from "fBodyBodyGyroMag-std()" 
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+frequency domain - body body gyroscope - Mag-meanFreq()        
+numeric
+The means for each combination of activity and subject of the data from "fBodyBodyGyroMag-meanFreq()" 
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+frequency domain - body body gyroscope - JerkMag-mean()        
+numeric
+The means for each combination of activity and subject of the data from "fBodyBodyGyroJerkMag-mean()"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+
+frequency domain - body body gyroscope - JerkMag-std()         
+numeric 
+The means for each combination of activity and subject of the data from "fBodyBodyGyroJerkMag-std()”
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+
+
+ 
+frequency domain - body body gyroscope - JerkMag-meanFreq()    
+numeric
+The means for each combination of activity and subject of the data from "fBodyBodyGyroJerkMag-meanFreq()"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+angle(tbody accelerometer - Mean,gravity)                      
+numeric  
+The means for each combination of activity and subject of the data from "angle(tBodyAccMean,gravity)"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+angle(tbody accelerometer - JerkMean),gravityMean)             
+numeric
+The means for each combination of activity and subject of the data from "angle(tBodyAccJerkMean),gravityMean)"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+angle(tbody gyroscope - Mean,gravityMean)                     
+numeric
+The means for each combination of activity and subject of the data from "angle(tBodyGyroMean,gravityMean)"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+angle(tbody gyroscope - JerkMean,gravityMean)                  
+numeric
+The means for each combination of activity and subject of the data from "angle(tBodyGyroJerkMean,gravityMean)"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+angle(X,gravityMean)                                           
+numeric
+The means for each combination of activity and subject of the data from "angle(X,gravityMean)"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+angle(Y,gravityMean)                                           
+numeric
+The means for each combination of activity and subject of the data from "angle(Y,gravityMean)"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+angle(Z,gravityMean)                                           
+numeric
+The means for each combination of activity and subject of the data from "angle(Z,gravityMean)"
+from the data developed by combining X_test.txt with X_train.txt and using the column names in features.txt
+
+
+
+
